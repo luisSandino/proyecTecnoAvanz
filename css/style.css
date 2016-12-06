@@ -1,0 +1,111 @@
+.footer {
+  text-align: center; }
+
+.footer-top {
+  background-color: #3a3e64;
+  padding-top: 50px; }
+
+.footer-bottom {
+  background-color: #313454;
+  padding: 15px 0; }
+
+.footer h5 {
+  color: #fff; }
+
+.footer h5 {
+  margin-bottom: 20px; }
+
+.footer p {
+  color: rgba(255, 255, 255, 0.5); }
+
+.footer .footer-share li {
+  display: inline-block;
+  float: none; }
+
+.footer .footer-share a {
+  border-width: 2px;
+  color: #fff; }
+
+.footer .fa-heart {
+  color: #e84545;
+  font-size: 15px;
+  margin: 0 3px; }
+
+.footer-share > li {
+  padding-top: 5px;
+  width: 45px;
+  height: 40px;
+  border: solid 2px gray; }
+  .footer-share > li:hover {
+    background-color: gray;
+    border-radius: 5%; }
+
+/* Custom page header */
+.header {
+  padding-top: 1.5rem;
+  padding-bottom: 2rem;
+  border-bottom: 0.01rem solid rgba(255, 255, 255, 0.15); }
+
+nav > ul > li > a {
+  color: #fff; }
+
+/* Make the masthead heading the same height as the navigation */
+.header h3 {
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: 3rem; }
+
+/* background of the header and footer*/
+.wrap {
+  background: #323556; }
+
+/*Customize container */
+@media (min-width: 48em) {
+  .container {
+    max-width: 75rem; } }
+/* Main marketing message and sign up button */
+.jumbotron {
+  text-align: center;
+  color: #fff;
+  border-bottom: .02rem solid #e5e5e5;
+  background: #323556 !important; }
+
+.jumbotron .btn {
+  padding: 1rem 1.5rem;
+  font-size: .8rem; }
+
+/* Responsive: Portrait tablets and up */
+@media screen and (min-width: 48em) {
+  /* Remove the padding we set earlier */
+  .header,
+  .marketing,
+  .footer {
+    padding-right: 0;
+    padding-left: 0; } }
+/* Space out the masthead */
+.header {
+  margin-bottom: 2rem; }
+
+/* Remove the bottom border on the jumbotron for visual effect */
+.jumbotron {
+  border-bottom: 0; }
+
+span {
+  font-weight: 100;
+  color: #fff; }
+
+.feature {
+  margin-bottom: 50px; }
+  .feature-content {
+    padding: 0 15px;
+    margin-top: 30px; }
+  .feature .fa {
+    padding-top: 50px;
+    color: #e84545;
+    font-size: 60px;
+    font-weight: 100; }
+
+a > img {
+  overflow: hidden; }
+
+/*# sourceMappingURL=style.css.map */
