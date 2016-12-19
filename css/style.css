@@ -108,4 +108,57 @@ span {
 a > img {
   overflow: hidden; }
 
+.worker {
+  max-width: 270px;
+  margin-top: 65px; }
+  .worker-content {
+    margin-top: 20px; }
+  .worker h4 {
+    font-weight: 16px; }
+  .worker h5 {
+    color: red;
+    font-size: 13px;
+    font-weight: 16px;
+    margin-bottom: 20px; }
+
+.social-icons {
+  margin-top: 30px; }
+  .social-icons li {
+    float: left;
+    list-style-type: none; }
+  .social-icons a {
+    border: 1px solid #e8ecee;
+    border-radius: 5px;
+    color: #c6cacc;
+    display: block;
+    font-size: 15px;
+    height: 35px;
+    line-height: 40px;
+    margin-right: 2px;
+    text-align: center;
+    width: 30px; }
+    .social-icons a:hover {
+      background-color: #aaa;
+      border-color: #aaa;
+      color: #fff; }
+
+.raperos {
+  background-color: #aaa; }
+  .raperos .imgrapero {
+    width: 100%; }
+  .raperos .comment {
+    width: 100%; }
+  .raperos blockquote {
+    border: 0;
+    margin: 0;
+    padding: 100px 15% 0; }
+  .raperos cite {
+    color: #fff;
+    display: block;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 100;
+    margin-top: 30px;
+    text-transform: uppercase; }
+
 /*# sourceMappingURL=style.css.map */

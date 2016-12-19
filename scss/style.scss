@@ -22,3 +22,72 @@ span{
 a>img{
 	overflow: hidden ;
 }
+
+.worker {
+	max-width: 270px;
+	margin-top: 65px;
+	&-content {
+		margin-top: 20px;
+	}
+	h4 {
+		font-weight: $defecto;
+	}
+	h5 {
+		color: $brand-color;
+		font-size: 13px;
+		font-weight: $defecto;
+		margin-bottom: 20px;
+	}
+}
+.social-icons {
+	margin-top: 30px;
+	li {
+		float: left;
+		list-style-type: none;
+	}
+	a {
+		border: 1px solid #e8ecee;
+		border-radius: 5px;
+		color: #c6cacc;
+		display: block;
+		font-size: 15px;
+		height: 35px;
+		line-height: 40px;
+		margin-right: 2px;
+		text-align: center;
+		width: 30px;
+		&:hover {
+			background-color: #aaa;
+			border-color: #aaa;
+			color: $white;
+		}
+	}
+}
+
+
+.raperos {
+
+	background-color: #aaa;
+	.imgrapero{width: 100%;} 
+	.comment{width: 100%;} 
+	blockquote {
+		border: 0;
+		margin: 0;
+		padding: 100px 15% 0;
+	}
+	
+
+	cite {
+		
+		color: $white;
+		display: block;
+		font-size: 13px;
+		font-style: normal;
+		font-weight: 100;
+		margin-top: 30px;
+		text-transform: uppercase;
+	}
+}
+
+
+
