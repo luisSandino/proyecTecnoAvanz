@@ -150,4 +150,7 @@ a > img {
   .raperos .comment {
     width: 50%; }
 
+body {
+  overflow-x: hidden; }
+
 /*# sourceMappingURL=style.css.map */
